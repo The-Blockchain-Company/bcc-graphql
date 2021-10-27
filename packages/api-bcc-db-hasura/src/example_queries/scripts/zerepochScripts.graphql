@@ -1,0 +1,15 @@
+query zerepochScripts (
+    $limit: Int
+){
+    scripts(
+        limit: $limit
+        where: { type: { _eq: "zerepoch" }}
+    ) {
+        hash
+        serialisedSize
+        transaction {
+            hash
+        }
+        type
+    }
+}

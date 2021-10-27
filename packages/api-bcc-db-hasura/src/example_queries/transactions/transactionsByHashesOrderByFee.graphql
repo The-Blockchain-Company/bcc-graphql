@@ -1,0 +1,64 @@
+query transactionsByHashes(
+    $hashes: [Hash32Hex]!
+) {
+    transactions(
+        where: { hash: { _in: $hashes }},
+        order_by: { hash: desc }
+    ) {
+        block {
+            number
+        }
+        blockIndex
+        collateral {
+            value
+        }
+        deposit
+        fee
+        hash
+        inputs(order_by: { sourceTxHash: asc }) {
+            address
+            sourceTxIndex
+            sourceTxHash
+            value
+        }
+        inputs_aggregate {
+            aggregate {
+                sum {
+                    value
+                }
+            }
+        }
+        outputs(order_by: { index: asc }) {
+            index
+            address
+            addressHasScript
+            value
+        }
+        outputs_aggregate {
+            aggregate {
+                sum {
+                    value
+                }
+            }
+        }
+        redeemers {
+            scriptHash
+        }
+        scripts {
+            hash
+            serialisedSize
+            type
+        }
+        scriptSize
+        size
+        totalOutput
+        validContract
+        withdrawals_aggregate {
+            aggregate {
+                sum {
+                    amount
+                }
+            }
+        }
+    }
+}

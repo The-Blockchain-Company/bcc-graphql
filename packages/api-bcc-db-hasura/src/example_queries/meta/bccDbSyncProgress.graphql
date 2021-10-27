@@ -1,0 +1,6 @@
+query bccDbSyncProgress {
+    bccDbMeta {
+        initialized
+        syncPercentage
+    }
+}

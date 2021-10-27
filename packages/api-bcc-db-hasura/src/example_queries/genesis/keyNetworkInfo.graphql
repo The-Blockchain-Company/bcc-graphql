@@ -1,0 +1,81 @@
+query keyNetworkInfo {
+  genesis {
+    aurum  {
+      isaacPerUTxOWord
+      executionPrices {
+        prMem {
+          denominator
+          numerator
+        }
+        prSteps {
+          denominator
+          numerator
+        }
+      }
+      maxTxExUnits {
+        exUnitsMem
+        exUnitsSteps
+      }
+      maxBlockExUnits {
+        exUnitsMem
+        exUnitsSteps
+      }
+      maxValueSize
+      collateralPercentage
+      maxCollateralInputs
+    }
+    cole {
+      blockVersionData {
+        scriptVersion
+        slotDuration
+        maxBlockSize
+        maxHeaderSize
+        maxProposalSize
+        maxTxSize
+      }
+      startTime
+      protocolConsts {
+        k
+        protocolMagic
+      }
+    }
+    sophie {
+      activeSlotsCoeff
+      epochLength
+      genDelegs
+      initialFunds
+      maxKESEvolutions
+      maxIsaacSupply
+      networkId
+      networkMagic
+      protocolParams {
+        a0
+        decentralisationParam
+        eMax
+        extraEntropy
+        keyDeposit
+        maxBlockBodySize
+        maxBlockHeaderSize
+        maxTxSize
+        minFeeA
+        minFeeB
+        minPoolCost
+        minUTxOValue
+        nOpt
+        poolDeposit
+        protocolVersion
+        rho
+        tau
+      }
+      securityParam
+      slotLength
+      slotsPerKESPeriod
+      staking {
+        pools
+        stake
+      }
+      systemStart
+      updateQuorum
+    }
+  }
+}

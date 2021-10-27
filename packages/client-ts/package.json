@@ -1,0 +1,47 @@
+{
+  "name": "@bcc-graphql/client-ts",
+  "version": "5.1.0-beta.1",
+  "description": "A client package for Bcc GraphQL, including the GraphQL schema and TypeScript definitions generated from it",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Blockchain-Company/bcc-graphql.git"
+  },
+  "main": "api/index.js",
+  "typings": "api/index.d.ts",
+  "scripts": {
+    "build": "graphql-codegen -c codegen.yml && tsc",
+    "cleanup": "./scripts/cleanup.sh",
+    "lint": "eslint --ignore-path ../../.eslintignore \"**/*.ts\"",
+    "prepack": "yarn build && ./scripts/embed_schema.sh",
+    "postpack": "yarn cleanup",
+    "test": "shx echo No tests in this package"
+  },
+  "keywords": [
+    "Bcc",
+    "GraphQL",
+    "TypeScript"
+  ],
+  "contributors": [
+    "Rhys Bartels-Waller <rhys.bartelswaller@tbco.io> (https://tbco.io)"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/The-Blockchain-Company/bcc-graphql/issues"
+  },
+  "homepage": "https://github.com/The-Blockchain-Company/bcc-graphql/blob/master/packages/client-ts/README.md",
+  "files": [
+    "api",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "directories": {
+    "lib": "src"
+  },
+  "devDependencies": {
+    "@graphql-tools/load-files": "^6.2.3",
+    "@graphql-tools/merge": "^6.2.3",
+    "@graphql-tools/schema": "^6.2.3",
+    "@graphql-tools/utils": "^6.2.3",
+    "shx": "^0.3.2"
+  }
+}

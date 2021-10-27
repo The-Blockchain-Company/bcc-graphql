@@ -1,0 +1,1 @@
+pg_restore -d bccexplorer -U postgres /docker-entrypoint-initdb.d/bccexplorer.pg_dump

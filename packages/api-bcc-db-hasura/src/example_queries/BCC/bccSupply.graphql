@@ -1,0 +1,9 @@
+query bccSupply {
+  bcc {
+    supply {
+      circulating
+      max
+      total
+    }
+  }
+}

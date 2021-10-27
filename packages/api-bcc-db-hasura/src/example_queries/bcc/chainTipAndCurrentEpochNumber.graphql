@@ -1,0 +1,10 @@
+query chainTipAndCurrentEpochNumber {
+  bcc {
+    tip {
+      number
+    }
+    currentEpoch {
+      number
+    }
+  }
+}
