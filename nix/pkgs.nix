@@ -10,7 +10,7 @@ let
   # use our own nixpkgs if it exists in our sources,
   # otherwise use tbcoNix default nixpkgs.
   nixpkgs = if (sources ? nixpkgs)
-    then (builtins.trace "Not using IOHK default nixpkgs (use 'niv drop nixpkgs' to use default for better sharing)"
+    then (builtins.trace "Not using TBCO default nixpkgs (use 'niv drop nixpkgs' to use default for better sharing)"
       sources.nixpkgs)
     else (import sources.tbco-nix {}).nixpkgs;
 

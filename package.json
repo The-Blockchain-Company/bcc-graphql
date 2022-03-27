@@ -43,7 +43,7 @@
     "test": "yarn workspaces run test"
   },
   "contributors": [
-    "Rhys Bartels-Waller <rhys.bartelswaller@tbco.io> (https://tbco.io)",
+    "Rhys Bartels-Waller <rhys.bartelswaller@blockchain-company.io> (https://tbco.io)",
     "Sam Jeston <sam.jeston@gmail.com>"
   ],
   "license": "Apache-2.0",
