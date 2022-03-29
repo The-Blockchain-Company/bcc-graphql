@@ -304,7 +304,7 @@ type BccPots {
 }
 
 type AurumGenesis {
-  isaacPerUTxOWord: Int!
+  entropicPerUTxOWord: Int!
   executionPrices: ExecutionPrices!
   maxTxExUnits: ExecutionUnits!
   maxBlockExUnits: ExecutionUnits!
@@ -719,7 +719,7 @@ type SophieGenesis {
   genDelegs: JSONObject
   initialFunds: JSONObject!
   maxKESEvolutions: Int!
-  maxIsaacSupply: String!
+  maxEntropicSupply: String!
   networkId: String!
   networkMagic: Int!
   protocolParams: SophieProtocolParams!

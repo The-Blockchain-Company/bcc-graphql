@@ -153,8 +153,8 @@ export async function buildSchema (
             return {
               supply: {
                 circulating: bccPots.circulating,
-                max: genesis.sophie.maxIsaacSupply,
-                total: new BigNumber(genesis.sophie.maxIsaacSupply)
+                max: genesis.sophie.maxEntropicSupply,
+                total: new BigNumber(genesis.sophie.maxEntropicSupply)
                   .minus(new BigNumber(bccPots.reserves))
                   .toString()
               }

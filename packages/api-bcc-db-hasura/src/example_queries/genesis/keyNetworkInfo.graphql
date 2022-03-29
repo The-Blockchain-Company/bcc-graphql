@@ -1,7 +1,7 @@
 query keyNetworkInfo {
   genesis {
     aurum  {
-      isaacPerUTxOWord
+      entropicPerUTxOWord
       executionPrices {
         prMem {
           denominator
@@ -45,7 +45,7 @@ query keyNetworkInfo {
       genDelegs
       initialFunds
       maxKESEvolutions
-      maxIsaacSupply
+      maxEntropicSupply
       networkId
       networkMagic
       protocolParams {

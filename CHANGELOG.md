@@ -213,7 +213,7 @@ therefore trying to impose rules around the structure will fail.
 This new major version, now based on the current Node.js LTS, brings the second round of Sophie-era 
 features to the API. Most notably, rewards, active stake captured at each epoch boundary, 
 transaction metadata, protocol parameters in effect during the epoch, and custom types for the Bech32 
-values covered by [CIP5](https://github.com/bcc-foundation/CIPs/tree/master/CIP5). 
+values covered by [CIP5](https://github.com/the-blockchain-company/CIPs/tree/master/CIP5). 
 
 You may be impacted by breaking changes, which are listed below.
 

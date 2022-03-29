@@ -1,4 +1,4 @@
-import BccWasm from '@emurgo/bcc-serialization-lib-nodejs'
+import BccWasm from '@the-blockchain-company/bcc-serialization-lib-nodejs'
 import { Config } from './Config'
 import fs from 'fs-extra'
 import path from 'path'

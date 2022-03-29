@@ -22,7 +22,7 @@ services:
         max-size: "200k"
         max-file: "10"
   bcc-node:
-    image: inputoutput/bcc-node:${BCC_NODE_VERSION:-1.13.0}
+    image: tbco/bcc-node:${BCC_NODE_VERSION:-1.13.0}
     environment:
       - NETWORK=${NETWORK:-mainnet}
     volumes:
@@ -34,7 +34,7 @@ services:
         max-size: "400k"
         max-file: "20"
   bcc-db-sync-extended:
-    image: inputoutput/bcc-db-sync:${BCC_DB_SYNC_VERSION:-2.1.0}
+    image: tbco/bcc-db-sync:${BCC_DB_SYNC_VERSION:-2.1.0}
     environment:
       - EXTENDED=true
       - NETWORK=${NETWORK:-mainnet}
@@ -58,7 +58,7 @@ services:
   hasura:
     build:
       context: ./packages/api-bcc-db-hasura/hasura
-    image: inputoutput/bcc-graphql-hasura:1.0.0
+    image: tbco/bcc-graphql-hasura:1.0.0
     ports:
       - "8090:8080"
     depends_on:
@@ -86,7 +86,7 @@ services:
     build:
       context: .
       target: server
-    image: inputoutput/bcc-graphql:1.0.0
+    image: tbco/bcc-graphql:1.0.0
     environment:
       - CACHE_ENABLED=true
       - HASURA_URI=http://hasura:8080

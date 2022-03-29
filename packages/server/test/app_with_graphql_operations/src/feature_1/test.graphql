@@ -1,4 +1,4 @@
 
-query maxIsaacSupply {
+query maxEntropicSupply {
   test
 }

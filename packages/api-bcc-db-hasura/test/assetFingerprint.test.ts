@@ -1,6 +1,6 @@
 import { assetFingerprint } from '@src/assetFingerprint'
 
-// https://github.com/bcc-foundation/CIPs/blob/master/CIP-0014/CIP-0014.md
+// https://github.com/the-blockchain-company/CIPs/blob/master/CIP-0014/CIP-0014.md
 
 describe('assetFingerprint', () => {
   it('produces a result to match the CIP test vectors', async () => {
