@@ -144,7 +144,7 @@ therefore trying to impose rules around the structure will fail.
 ### Features
 
 * Introduce asset model and fetch metadata from external service ([0329a84](https://github.com/The-Blockchain-Company/bcc-graphql/commit/0329a84c7a137cc8135635afd10502243324208a))
-* Ada Pots ([9c7f058](https://github.com/The-Blockchain-Company/bcc-graphql/commit/9c7f058ef331a06576ad5cf5e567af4ddb723bf0))
+* Bcc Pots ([9c7f058](https://github.com/The-Blockchain-Company/bcc-graphql/commit/9c7f058ef331a06576ad5cf5e567af4ddb723bf0))
 
 ## [3.2.0](https://github.com/The-Blockchain-Company/bcc-graphql/compare/3.1.1...3.2.0) (2021-02-01)
 
@@ -153,7 +153,7 @@ therefore trying to impose rules around the structure will fail.
 - [`hasura/graphql-engine`: `1.3.3`](https://github.com/hasura/graphql-engine/releases/tag/v1.3.3)
 
 ### Features
-* Ada supply query ([e716d51](https://github.com/The-Blockchain-Company/bcc-graphql/commit/e716d51b801fa758b26843f3853949d0d3c434a7))
+* Bcc supply query ([e716d51](https://github.com/The-Blockchain-Company/bcc-graphql/commit/e716d51b801fa758b26843f3853949d0d3c434a7))
 * Submit transaction mutation ([29f1adb](https://github.com/The-Blockchain-Company/bcc-graphql/commit/29f1adb0b3a2c3762dc0dd8dadb4bff4a3041245))
 * Multi-asset support ([86e4206](https://github.com/The-Blockchain-Company/bcc-graphql/commit/86e42064a02e1aabb6e4b2ea1d53157b4e21a7ef))
 * Structured logging ([f948cf5](https://github.com/The-Blockchain-Company/bcc-graphql/commit/f948cf51ca3d2e95147e219cbed3323a6c3bf0d0))
