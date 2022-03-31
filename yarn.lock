@@ -592,14 +592,14 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@the-blockchain-company/bcc-serialization-lib-nodejs@^6.0.0":
+"@theblockchaincompanyio/bcc-serialization-lib-nodejs@^6.0.0":
   version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@the-blockchain-company/bcc-serialization-lib-nodejs/-/bcc-serialization-lib-nodejs-6.0.0.tgz#6496fbe34e5ac0af522ed0fe6919c34bedb00283"
+  resolved "https://registry.yarnpkg.com/@theblockchaincompanyio/bcc-serialization-lib-nodejs/-/bcc-serialization-lib-nodejs-6.0.0.tgz#6496fbe34e5ac0af522ed0fe6919c34bedb00283"
   integrity sha512-8PaFFGqd2hD0KcSMcFh2f6VZx3G6wpzl4KhwiwyuEhUd+NWYT5ITQNFBmST0pJ6yQPP99/6Z3nc1L1dk60fGGA==
 
-"@the-blockchain-company/cip14-js@^2.0.0":
+"@theblockchaincompanyio/cip14-js@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@the-blockchain-company/cip14-js/-/cip14-js-2.0.0.tgz#6ef78ddac8a35f2725e9ccebfd5ae114716c4b48"
+  resolved "https://registry.yarnpkg.com/@theblockchaincompanyio/cip14-js/-/cip14-js-2.0.0.tgz#6ef78ddac8a35f2725e9ccebfd5ae114716c4b48"
   integrity sha512-EvjgTs4NCqH1j0wxXqWCj31P7NmTzl3aR+9am0OLSsf3NA9GsdKH5QNyXJrvSZILM4yWzlZNum3y8S5PfdM1aA==
   dependencies:
     bech32 "2.0.0"

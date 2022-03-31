@@ -1,4 +1,4 @@
-import BccWasm from '@the-blockchain-company/bcc-serialization-lib-nodejs'
+import BccWasm from '@theblockchaincompanyio/bcc-serialization-lib-nodejs'
 import { Config } from './Config'
 import fs from 'fs-extra'
 import path from 'path'

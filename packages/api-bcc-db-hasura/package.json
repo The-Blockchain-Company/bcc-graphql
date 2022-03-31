@@ -34,8 +34,8 @@
   "dependencies": {
     "@bcc-graphql/util": "5.1.0-beta.1",
     "@bcc-ogmios/client": "^4.0.0-beta.9",
-    "@the-blockchain-company/bcc-serialization-lib-nodejs": "^6.0.0",
-    "@the-blockchain-company/cip14-js": "^2.0.0",
+    "@theblockchaincompanyio/bcc-serialization-lib-nodejs": "^6.0.0",
+    "@theblockchaincompanyio/cip14-js": "^2.0.0",
     "@graphql-tools/delegate": "^6.0.10",
     "@graphql-tools/schema": "^6.0.9",
     "@graphql-tools/wrap": "^6.0.9",
