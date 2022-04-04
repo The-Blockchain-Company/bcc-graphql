@@ -408,7 +408,7 @@ is passed to yarn install
 
 ## Breaking changes
 - PostgreSQL views are now being managed in this codebase, so either switch to the
- [new Docker image](./hasura/Dockerfile) `inputoutput/bcc-graphql-hasura`, 
+ [new Docker image](./hasura/Dockerfile) `tbco/bcc-graphql-hasura`, 
  or use the Hasura CLI as demonstrated in the [entrypoint](./hasura/docker-entrypoint.sh)
  This change was needed to be compatible with the migration strategy determind by `bcc-db-sync`,
  where the migrations need to be applied on each start of the service. The custom Docker image makes it
